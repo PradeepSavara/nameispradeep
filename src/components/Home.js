@@ -64,6 +64,7 @@ function Home() {
         justifyContent: 'center', // Center the footer text horizontally
         alignItems: 'center', // Center the footer text vertically
         backgroundColor: 'black',
+        textAlign:'center',
         color: 'white',
         fontSize: '14px',
     };
@@ -128,9 +129,7 @@ function Home() {
                 <div className="github">
                     <a href='https://github.com/PradeepSavara'><i className='logos bx bxl-github'></i></a>
                 </div>
-                <div className="twitter">
-                    <a href='/https://www.facebook.com/savara.pradeep.3' ><i className='logos bx bxl-facebook'></i></a>
-                </div>
+                
                 <div className="linkedin">
                     <a href='https://www.linkedin.com/in/savara-pradeep-8220832b0/' ><i className='logos bx bxl-linkedin'></i></a>
                 </div>

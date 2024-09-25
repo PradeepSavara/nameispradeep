@@ -95,7 +95,7 @@ function About() {
             <br />
             <span className="h4 mx-5">
               "Be the <span style={{color:'#a601d7'}}>Expectations!</span>"<br />
-              <p className='h5' style={{ paddingLeft: '280px' }}>- Pradeep Savara</p>
+              {/* <p className='h5' style={{ paddingLeft: '280px' }}>- Pradeep Savara</p> */}
             </span>
           </div>
           <div style={imageContainerStyle}>

@@ -7,6 +7,7 @@ function Project() {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    textAlign:'center',
     backgroundColor: 'black',
     color: 'white',
     fontSize: '14px',
@@ -34,7 +35,7 @@ function Project() {
           </div>
         </div>
         <div className="project card mx-4 my-4" style={{width:'18rem'}}>
-          <img className="card-img-top" src="wordPress.png" alt="..." />
+          <img className="card-img-top" src="WordPress.png" alt="..." />
           <div className="card-body"> 
             <h5 className="card-title">Portfolio- Using wordpress</h5>
             <p className="card-text">

@@ -34,6 +34,7 @@ function App() {
     height: '60px',
     display: 'flex',
     justifyContent: 'center',
+    textAlign:'center',
     alignItems: 'center',
     backgroundColor: 'black',
     color: 'white',

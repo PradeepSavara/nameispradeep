@@ -7,6 +7,7 @@ function Resume() {
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    textAlign:'center',
     backgroundColor: 'black',
     color: 'white',
     fontSize: '14px',
