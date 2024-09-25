@@ -14,7 +14,7 @@ function About() {
 
   const rowStyle = {
     display: 'flex',
-    flexDirection: 'row',
+    flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'space-between',
     flexWrap: 'wrap',
