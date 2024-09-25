@@ -90,7 +90,7 @@ function About() {
             <span className='h5' style={{color:'#a601d7'}}>
               <i className='bx bx-right-arrow-circle mx-4' ></i>Playing Games<br />
               <i className='bx bx-right-arrow-circle mx-4' ></i>Travelling<br />
-              <i className='bx bx-right-arrow-circle mx-4' ></i>Riding Bikes and Cars<br />
+              <i className='bx bx-right-arrow-circle mx-4' ></i>Riding Vehicles<br />
             </span>
             <br />
             <span className="h4 mx-5">
