@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+
+body, html {
+  color:white;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  
 }
 
-.App-logo {
-  height: 40vmin;
+
+
+#backgroundVideo {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  background-size: cover;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+p .bx{
+  font-size: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Add this to your CSS file */
+.underline-hover {
+  position: relative;
+  display: inline-block;
 }
 
-.App-link {
-  color: #61dafb;
+.underline-hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: #a601d7; /* Adjust the color as needed */
+  border-radius: 10px;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.underline-hover:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
+
+
+
+.hover-effect:hover {
+  transform: scale(1.1);  /* Increases size */
+  box-shadow: 0 0 20px #a601d7;  /* Adds aqua glow */
+}
+
+.project{
+  box-shadow: 0 0 30px #a601d7;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project:hover{
+  transform: translateY(-10px) scale(1.05);
+}
+.logos{
+  /* box-shadow: 0 0 30px rgba(211, 55, 133, 0.8); */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.logos:hover{
+  transform: translateY(-10px) scale(1.05);
+  /* box-shadow: 0 0 30px rgba(211, 55, 133, 0.8); */
+
+}
+
+.division{
+  background-color: transparent !important;
+  
+}
+/* .navbar{
+  background-color: transparent !important;
+} */
+
+
+
+/* For WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Background of the scrollbar track */
+  border-radius: 10px; /* Border radius of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a601d7; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Border radius of the scrollbar thumb */
+  border: 3px solid white; /* Optional: Adds padding inside the thumb */
+}
+
+/* For Firefox */
+scrollbar-width: thin; /* Makes the scrollbar thinner */
+scrollbar-color: pink; /* Sets the thumb and track color */
+
+
